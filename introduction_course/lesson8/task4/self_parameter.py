@@ -11,3 +11,14 @@ class Calculator:
 
     def get_current(self):
         return self.current
+
+cmplx = Complex()
+cmplx.create(3,3)
+print(cmplx.r + cmplx.i)
+
+calc = Calculator()
+calc.add(3)
+calc.add(3)
+calc.add(3)
+calc.add(3)
+print(calc.get_current())

@@ -8,5 +8,6 @@ print(phone_book)
 
 # Remove key-value pair from phone_book
 del phone_book['John']
+print(phone_book)
 
 print(phone_book['Jane'])

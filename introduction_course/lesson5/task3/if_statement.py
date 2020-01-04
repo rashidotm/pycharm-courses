@@ -9,3 +9,19 @@ tasks = ['task1', 'task2']    # create new list
 
 if len(tasks) == 0:
     print("empty")
+else:
+    print(tasks)
+
+tasks.append(tasks.copy())
+if len(tasks) == 0:
+    print("empty")
+else:
+    print(tasks)
+
+print(tasks[2])
+
+tasks.clear()
+if len(tasks) == 0:
+    print("empty")
+else:
+    print(tasks)

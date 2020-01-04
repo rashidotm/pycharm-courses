@@ -1,5 +1,5 @@
-for i in range(5):
-    if i == 3:
+for i in range(31):
+    if i % 3 == 0:
         continue   # skip the rest of the code inside loop for current i value
     print(i)
 
